@@ -1,0 +1,30 @@
+.mainBottom {
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  .imgBgBottom {
+    width: 1200px;
+    height: 500px;
+    background-image: url(../images/locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .locBox {
+    width: 100%;
+    max-height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .locBox div {
+    background-color: $background-color;
+    width: 300px;
+  }
+}

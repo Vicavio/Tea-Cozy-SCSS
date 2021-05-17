@@ -1,0 +1,26 @@
+@import "config";
+@import "pageContainer";
+@import "header";
+/*MAIN*/
+@import "mainTop";
+@import "mainMiddle";
+@import "mainBottom";
+/*FOOTER*/
+@import "footer";
+
+body {
+  font-family: $font-family;
+  font-size: 22px;
+  color: $color;
+  background-color: $background-color;
+  opacity: 0.9;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .locBox div {
+    width: 30%;
+  }
+  .navLinks a {
+    font-size: 75%;
+  }
+}

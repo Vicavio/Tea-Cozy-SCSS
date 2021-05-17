@@ -1,0 +1,21 @@
+.mainTop {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  .imgBgTop {
+    width: 1200px;
+    height: 700px;
+    background-image: url(../images/mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textCover {
+    background-color: $background-color;
+    width: 100%;
+  }
+}
